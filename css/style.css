@@ -1,0 +1,186 @@
+@import 'https://fonts.googleapis.com/css?family=Cinzel';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+
+body{
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav_full{
+    padding: 0px 200px;
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.logo{
+   font-size: 2rem;
+   margin-right: 5px;
+   padding: 0px 5px;
+   border-radius: 50%;
+   font-family: 'Cinzel', serif;
+}
+.body_section{
+    background: url(../images/mountain.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 80px 0px;
+}
+.body_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+.read_more{
+    text-decoration: none;
+    width: 30%;
+    margin: auto;
+}
+.read_more:hover{
+    text-decoration: none;
+}
+.body-container{
+    margin: auto;
+    box-sizing: auto;
+    padding: 0px 100px;
+}
+.body-container-left{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+.body-container-right{
+    background-color: red;
+}
+.submit_btn{
+    display: block;
+    width: 100%;
+}
+.subs_section{
+    padding: 20px 0px;
+}
+.rest_container{
+ padding: 30px 200px;
+}
+.about_section{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.about_section > div{
+    margin-left: 2px;
+}
+.book_description{
+    padding: 0px 100px;
+    margin: 100px 0px;
+}
+.book_description *{
+    text-align: center;
+}
+.accordion button{
+   display: block;
+   width: 100%;
+   text-decoration: none;
+}
+.accordion button:hover{
+     text-decoration: none;
+ }
+ .card-body{
+    text-align: center;
+ }
+ 
+.card-header{
+    padding: 0;
+}
+.meet_author{
+ margin: 50px 0px;
+}
+.meet_text{
+   text-align: center;
+}
+.meet_images{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 5px;
+    margin: 50px 0px;
+}
+.card *{
+   padding: 0;
+   margin: 0;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+}
+.card  h5{
+    font-weight: bolder;
+}
+.card-text{
+    font-size: 1rem;
+}
+.contact_section{
+    background-color: #f1f1f1;
+}
+.contact_section-left h1{
+    font-size: 1rem;
+}
+.contact_section-left p{
+   font-size: 12px;
+}
+.contact_section-left form{
+    width: 100%;
+}
+.contact_section-left textarea{
+    width: 100%;
+}
+.contact_section-left button{
+    width: 100%;
+}
+.contact_section-right{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.contact_section-right span{
+    font-size: 150px;
+    padding: 0px 25px;
+    border-radius: 50%;
+    font-family: 'Cinzel', serif;
+}
+.social{
+    font-size: 10px;
+    margin: 0px 5px;
+}
+footer{
+  
+}
+footer p{
+    text-align: center;
+    padding: 20px 0px;
+}
+.body-container{
+    text-align: center;
+    padding: 50px 0px;
+    position: relative;
+    z-index: 2;
+}
+
+
+@media(max-width: 768px){
+    .nav_full{
+        padding: 0px 100px;
+    }
+    .rest_container{
+        padding: 30px 0px;
+       }
+}
