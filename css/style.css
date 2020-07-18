@@ -2,9 +2,13 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family : sans-serif;
 }
 .nav_full{
     padding: 0px 200px;
@@ -34,9 +38,8 @@ body{
     opacity: 0.3;
 }
 .read_more{
-    text-decoration: none;
-    width: 30%;
-    margin: auto;
+    padding: 10px 20px;
+    margin-top: 1.5rem;
 }
 .read_more:hover{
     text-decoration: none;
@@ -176,11 +179,33 @@ footer p{
 }
 
 
-@media(max-width: 768px){
+@media(max-width: 968px){
     .nav_full{
-        padding: 0px 100px;
+        padding: 0px ;
     }
     .rest_container{
         padding: 30px 0px;
        }
+       .about_section{
+            width: 80% ;
+        margin: auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 1rem ;
+    }
+    .about_section > div{
+        margin-left: 2px;
+    }
+    .meet_images{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1rem;
+        margin: 3rem auto;
+    }
+    .meet_images > div {
+        margin-bottom: 2rem;
+    }
 }
